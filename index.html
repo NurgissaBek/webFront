@@ -1,87 +1,73 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пример страницы</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
 </head>
+
 <body>
-    <header style="display: flex; justify-content: space-between;">
-        <div>
-            <img src="logo.jpg" alt="Логотип" width="25" height="25">
-        </div>
-        <div>
-            <form>
-                <select name="category">
-                    <option value="all">Все категории</option>
-                    <option value="books">Овощи</option>
-                    <option value="electronics">Фрукты</option>
-                    <option value="clothes">Морепродукты</option>
-                </select>
-                <input type="text" name="search" placeholder="Поиск...">
-                <button type="submit">&#128269;</button>
-            </form>
-        </div>
-        <div>
-            <a href="#">Адрес</a> |
-            <a href="#">Личный кабинет</a> |
-            <a href="#">Язык</a> |
-            <a href="#">Корзина</a> |
-            <a href="#">Категории</a> |
-            <a href="login.html">Войти</a>
-        </div>
-                
-    </header>
-    <main>
+  <header style="display: flex; justify-content: space-between;">
+    
+    <div>
+      <img src="assets/logo.jpg" alt="Логотип" width="25" height="25">
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <a href="categories.html">Категории</a>
+      <form>
+        <input type="text" name="search" placeholder="Поиск...">
+        <button type="submit">&#128269;</button>
+      </form>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <a href="#">Адрес</a>
+      <a href="#">Личный кабинет</a>
+      <a href="#">Язык</a>
+      <a href="#">Корзина</a>
+      <a href="login.html">Войти</a>
+    </div>
 
-        <hr>
+  </header>
+  
+  <main>
 
-        <section>
-            <h2>Акций</h2>
-            <div style="display: flex; gap: 10px;">
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-        <section>
-            <h2>Новинки</h2>
-            <div style="display: flex; gap: 10px;">
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-                <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
-                    <img src="good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
-                    <h3>Товар 1</h3>
-                </div>
-            </div>
-        </section>
-    </main>
     <hr>
-    <footer style="display: flex;justify-content: space-between;">
-        <div>
-            <img src="logo.jpg" alt="Логотип" width="30" height="30">
+
+    <section>
+      <h2>Акции</h2>
+    </section>
+
+    <hr>
+    <section>
+      <h2>Новинки</h2>
+      <div style="display: flex; gap: 10px;">
+        <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
+          <img src="assets/good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
+          <h3>Товар 1</h3>
         </div>
-        <div>
-            <a href="#" style="margin-right:10px ;">Info</a>
-            <a href="#">Contact us</a>
+        <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
+          <img src="assets/good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
+          <h3>Товар 1</h3>
         </div>
-    </footer>
+        <div style="border: 2.5px solid #ddd; border-radius: 5px; padding: 15px; width: 100px; text-align: center;">
+          <img src="assets/good1.jpg" alt="Товар 1" style="max-width: 100%; height:auto">
+          <h3>Товар 1</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <hr>
+
+  <footer style="display: flex;justify-content: space-between;">
+    <div>
+      <img src="assets/logo.jpg" alt="Логотип" width="30" height="30">
+    </div>
+    <div>
+      <a href="#" style="margin-right:10px ;">Info</a>
+      <a href="#">Contact us</a>
+    </div>
+  </footer>
 </body>
+
 </html>

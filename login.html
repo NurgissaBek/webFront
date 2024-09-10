@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Вход</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход</title>
 </head>
+
 <body>
-    <div style="text-align: center;">
-    <h1>Login</h1>
-        <form>
-            <div style="justify-content: center;">
-                <label for="username" style="display: block;">username:</label>
-                <input type="text" id="username" name="username">
-                <label for="password" style="display: block;">password:</label>
-                <input type="password" id="password" name="password">
-            </div>
-            <div>
-                <button type="submit">Войти</button>
-            </div>
-        </form>
-        <br>
-        <div>
-            <p>Нет аккаунта?<a href="register.html">Создайте его здесь</a>.</p>
-        </div>
+  <header style="display: flex; justify-content: space-between;">
     
+    <div>
+      <img src="assets/logo.jpg" alt="Логотип" width="25" height="25">
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <a href="categories.html">Категории</a>
+      <form>
+        <input type="text" name="search" placeholder="Поиск...">
+        <button type="submit">&#128269;</button>
+      </form>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <a href="#">Адрес</a>
+      <a href="#">Личный кабинет</a>
+      <a href="#">Язык</a>
+      <a href="#">Корзина</a>
+      <a href="login.html">Войти</a>
+    </div>
+
+  </header>
+
+  <div style="text-align: center;">
+    <h1>Login</h1>
+    <form>
+      <div style="justify-content: center;">
+        <label for="email" style="display: block;">Почта:</label>
+        <input type="email" id="email" name="email">
+        <label for="password" style="display: block;">Пароль:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div>
+        <button type="submit">Войти</button>
+      </div>
+    </form>
+    <br>
+    <div>
+      <p>Нет аккаунта?<a href="register.html">Зарегистрируйтесь</a>.</p>
+    </div>
+
+  </div>
+
+  <footer style="display: flex;justify-content: space-between;">
+    <div>
+      <img src="assets/logo.jpg" alt="Логотип" width="30" height="30">
+    </div>
+    <div>
+      <a href="#" style="margin-right:10px ;">Info</a>
+      <a href="#">Contact us</a>
+    </div>
+  </footer>
+
 </body>
+
 </html>
